@@ -1,0 +1,2978 @@
+{
+
+"status": true,
+
+"message": "Call locations loaded successfully.",
+
+"staff": {
+
+"staff_id": 17,
+
+"name": "Kamatchi Tamizhmathi K",
+
+"image": "https://dev.erp.elysiumtechnologies.com/staff_images/staff_17.jpg",
+
+"gender": 2,
+
+"mobile": "7358121688",
+
+"department": "Post Sales Department",
+
+"position": "Post Senior Sales Executive",
+
+"online": 1
+
+},
+
+"filter": {
+
+"start_date": "2026-08-01",
+
+"end_date": "2026-08-31"
+
+},
+
+"summary": {
+
+"total_calls": 193,
+
+"mapped_calls": 193,
+
+"unique_locations": 25,
+
+"incoming": 25,
+
+"outgoing": 80,
+
+"missed": 3,
+
+"rejected": 0,
+
+"dialed": 85
+
+},
+
+"data": [
+
+{
+
+"id": 705992,
+
+"latitude": 9.92028499999999979763742885552346706390380859375,
+
+"longitude": 78.147840000000002191882231272757053375244140625,
+
+"location_key": "9.9202850,78.1478400",
+
+"user": "Kamatchi Tamizhmathi K",
+
+"staff_id": 17,
+
+"staff_image": "staff_17.jpg",
+
+"department_name": "Post Sales Department",
+
+"job_position_name": "Post Senior Sales Executive",
+
+"contact": "132 Meenakshi",
+
+"phone": "9840218094",
+
+"date": "2026-08-12",
+
+"time": "10:34:56 AM",
+
+"datetime": "2026-08-12 10:34:56",
+
+"duration": "00:00:29",
+
+"status": 0,
+
+"status_text": "Outgoing",
+
+"status_class": "outgoing",
+
+"status_icon": "mdi-phone-outgoing"
+
+},
+
+{
+
+"id": 705993,
+
+"latitude": 9.92028499999999979763742885552346706390380859375,
+
+"longitude": 78.147840000000002191882231272757053375244140625,
+
+"location_key": "9.9202850,78.1478400",
+
+"user": "Kamatchi Tamizhmathi K",
+
+"staff_id": 17,
+
+"staff_image": "staff_17.jpg",
+
+"department_name": "Post Sales Department",
+
+"job_position_name": "Post Senior Sales Executive",
+
+"contact": "131 Manjula",
+
+"phone": "8660740903",
+
+"date": "2026-08-12",
+
+"time": "10:34:11 AM",
+
+"datetime": "2026-08-12 10:34:11",
+
+"duration": "00:00:24",
+
+"status": 0,
+
+"status_text": "Outgoing",
+
+"status_class": "outgoing",
+
+"status_icon": "mdi-phone-outgoing"
+
+},
+
+{
+
+"id": 705995,
+
+"latitude": 9.92028499999999979763742885552346706390380859375,
+
+"longitude": 78.147840000000002191882231272757053375244140625,
+
+"location_key": "9.9202850,78.1478400",
+
+"user": "Kamatchi Tamizhmathi K",
+
+"staff_id": 17,
+
+"staff_image": "staff_17.jpg",
+
+"department_name": "Post Sales Department",
+
+"job_position_name": "Post Senior Sales Executive",
+
+"contact": "Unknown Contact",
+
+"phone": "6420411758",
+
+"date": "2026-08-12",
+
+"time": "10:33:50 AM",
+
+"datetime": "2026-08-12 10:33:50",
+
+"duration": "00:00:00",
+
+"status": 4,
+
+"status_text": "Dialed",
+
+"status_class": "dialed",
+
+"status_icon": "mdi-phone-dial"
+
+},
+
+{
+
+"id": 705997,
+
+"latitude": 9.92028499999999979763742885552346706390380859375,
+
+"longitude": 78.147840000000002191882231272757053375244140625,
+
+"location_key": "9.9202850,78.1478400",
+
+"user": "Kamatchi Tamizhmathi K",
+
+"staff_id": 17,
+
+"staff_image": "staff_17.jpg",
+
+"department_name": "Post Sales Department",
+
+"job_position_name": "Post Senior Sales Executive",
+
+"contact": "Bhoopathi-129/Regi Sir",
+
+"phone": "9043958509",
+
+"date": "2026-08-12",
+
+"time": "10:31:48 AM",
+
+"datetime": "2026-08-12 10:31:48",
+
+"duration": "00:01:03",
+
+"status": 0,
+
+"status_text": "Outgoing",
+
+"status_class": "outgoing",
+
+"status_icon": "mdi-phone-outgoing"
+
+},
+
+{
+
+"id": 705922,
+
+"latitude": 9.92028499999999979763742885552346706390380859375,
+
+"longitude": 78.147840000000002191882231272757053375244140625,
+
+"location_key": "9.9202850,78.1478400",
+
+"user": "Kamatchi Tamizhmathi K",
+
+"staff_id": 17,
+
+"staff_image": "staff_17.jpg",
+
+"department_name": "Post Sales Department",
+
+"job_position_name": "Post Senior Sales Executive",
+
+"contact": "114 Yoginath",
+
+"phone": "9545553836",
+
+"date": "2026-08-12",
+
+"time": "09:47:39 AM",
+
+"datetime": "2026-08-12 09:47:39",
+
+"duration": "00:00:00",
+
+"status": 4,
+
+"status_text": "Dialed",
+
+"status_class": "dialed",
+
+"status_icon": "mdi-phone-dial"
+
+}, i have response but location tracker not working so once again give advanced ui ux look must atrrcative for production and professional so give modal , css & script fully
+
+Wednesday 4:59 PM
+Pasted code(20260812-112425).php
+File
+Pasted code (2)(20260812-112506).php
+File
+Pasted code (3)(2).php
+File
+
+now this is ok dont chnage any i am statisfy this code so only small chnages that based update only
+
+1.location-tracker-toolbar is sticky because it contain mini dash board
+
+2.location-tracker-layout only scroll and call list also i wnat scroll y
+
+most markers auto comes to center and that based zoom in or out
+in call list show small notify latitute avaliable or not
+in map inlcude statelite mode also change
+
+Below is a production-oriented full Blade page designed to work with the backend endpoint from the previous step.
+
+It includes:
+
+Current-month default
+Month-wise filter
+Custom date range
+Staff dropdown
+Call-status filter
+Search
+AJAX filtering
+AJAX refresh
+Leaflet map
+Marker clustering
+Street / Satellite layers
+Automatic bounds + zoom
+Staff-wise call list
+Location available/unavailable indicator
+Map marker → call list synchronization
+Call list → map marker synchronization
+Loading/error/empty states
+Responsive layout
+No page reload during filtering
+Debounced search
+CSRF-safe AJAX setup
+Safe HTML escaping
+Map cleanup/reinitialization
+Production-friendly event handling
+
+Important: this assumes Leaflet and leaflet.markercluster are available. If your layout already loads Bootstrap/jQuery/Vite, don't load duplicate versions.
+
+resources/views/team_management/call_location_tracker.blade.php
+@extends('layouts.app')
+
+
+@section('title', 'Call Location Tracker')
+
+
+@section('content')
+
+
+<style>
+
+
+    /* ============================================================
+       PAGE
+    ============================================================ */
+
+
+    .location-tracker-page {
+        background: #f6f8fb;
+        min-height: calc(100vh - 70px);
+        padding: 14px;
+    }
+
+
+    .location-tracker-wrapper {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
+    /* ============================================================
+       FILTER TOOLBAR
+       ============================================================ */
+
+
+    .location-filter-card {
+        background: #ffffff;
+        border: 1px solid #e5eaf0;
+        border-radius: 14px;
+        padding: 14px;
+        margin-bottom: 12px;
+        box-shadow: 0 3px 15px rgba(15, 23, 42, .05);
+One important backend adjustment
+
+Your previous backend currently returns:
+
+'locations' => $groupedLocations,
+
+which is exactly what this page expects.
+
+However, there is one thing I recommend changing in the backend before production: the staff_image value in your API should preferably already be a complete URL, like your existing response:
+
+"image": "https://dev.erp.elysiumtechnologies.com/staff_images/staff_17.jpg"
+
+Then the frontend doesn't need to assume:
+
+/staff_images/
+
+That avoids problems when the application is deployed under a subdirectory, CDN, different domain, or storage disk.
+
+For example, return:
+
+'staff_image' => $staff->staff_image
+    ? asset('staff_images/' . $staff->staff_image)
+    : null,
+
+and in JS use the returned URL directly.
+
+Also, your earlier Cannot read properties of null (reading 'addLayer') error is avoided here because the map is created before any tile layer or cluster layer receives .addTo(locationMap).
+
+The page now has two independent vertical scroll contexts:
+
+Full page
+ ├── Filter toolbar
+ ├── Summary
+ └── Tracker
+      ├── Map
+      └── Staff Call Activity
+           └── ONLY THIS AREA SCROLLS Y
+
+So the call list will not push the map/page height indefinitely.
+
+public function cugStaffList(Request $request)
+{
+/*
+|--------------------------------------------------------------------------
+| Month / Year
+|--------------------------------------------------------------------------
+*/
+
+    $monthFilter = $request->get(
+        'month_filter',
+        now()->format('M-Y')
+    );
+
+    try {
+
+        $parsedDate = Carbon::createFromFormat(
+            '!M-Y',
+            $monthFilter
+        );
+
+    } catch (\Throwable $e) {
+
+        $parsedDate = now()->startOfMonth();
+
+    }
+
+    $month = $parsedDate->month;
+    $year  = $parsedDate->year;
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Pagination
+    |--------------------------------------------------------------------------
+    */
+
+    $limit = min(
+        max((int) $request->get('limit', 50), 10),
+        100
+    );
+
+    $page = max(
+        (int) $request->get('page', 1),
+        1
+    );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Call Summary
+    |
+    | IMPORTANT:
+    | This intentionally matches TeamCall()
+    |--------------------------------------------------------------------------
+    */
+
+    $callSummary = DB::table('et_call_tracker')
+        ->select(
+
+            'branch_staff_id',
+
+            DB::raw("
+                SUM(
+                    CASE
+                        WHEN call_status = 1
+                        THEN 1
+                        ELSE 0
+                    END
+                ) AS incoming
+            "),
+
+            DB::raw("
+                SUM(
+                    CASE
+                        WHEN call_status = 0
+                        AND call_duration != '00:00:00'
+                        THEN 1
+                        ELSE 0
+                    END
+                ) AS outgoing
+            "),
+
+            DB::raw("
+                SUM(
+                    CASE
+                        WHEN call_status = 2
+                        THEN 1
+                        ELSE 0
+                    END
+                ) AS missed
+            "),
+
+            DB::raw("
+                SUM(
+                    CASE
+                        WHEN call_status = 3
+                        THEN 1
+                        ELSE 0
+                    END
+                ) AS rejected
+            "),
+
+            DB::raw("
+                SUM(
+                    CASE
+                        WHEN call_status = 4
+                        THEN 1
+                        ELSE 0
+                    END
+                ) AS dialed
+            "),
+             DB::raw("
+                MAX(
+                    CONCAT(
+                        call_start_date,
+                        ' ',
+                        call_start_time
+                    )
+                ) AS last_call_at
+            ")
+
+        )
+
+        ->whereYear(
+            'call_start_date',
+            $year
+        )
+
+        ->whereMonth(
+            'call_start_date',
+            $month
+        )
+
+        ->groupBy(
+            'branch_staff_id'
+        );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Staff Query
+    |--------------------------------------------------------------------------
+    */
+
+    $query = DB::table('et_staff as s')
+
+        ->join('et_cug_management as cug', function ($join) {
+
+            $join->on(
+                'cug.staff_id',
+                '=',
+                's.sno'
+            )
+
+            ->where(
+                'cug.status',
+                0
+            );
+
+        })
+
+        ->leftJoin(
+            'et_job_position as jp',
+            'jp.sno',
+            '=',
+            's.position_role'
+        )
+
+        ->join(
+            'users',
+            'users.user_id',
+            '=',
+            's.sno'
+        )
+
+        /*
+        |--------------------------------------------------------------------------
+        | IMPORTANT
+        |
+        | Join using branch_staff_id because TeamCall()
+        | uses branch_staff_id.
+        |--------------------------------------------------------------------------
+        */
+
+        ->leftJoinSub(
+            $callSummary,
+            'calls',
+            function ($join) {
+
+                $join->on(
+                    'calls.branch_staff_id',
+                    '=',
+                    's.sno'
+                );
+
+            }
+        )
+
+        ->where(
+            's.status',
+            0
+        );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Department
+    |--------------------------------------------------------------------------
+    */
+
+    $query->when(
+        $request->filled('department_id'),
+        function ($q) use ($request) {
+
+            $q->where(
+                's.department_id',
+                $request->department_id
+            );
+
+        }
+    );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Online / Offline
+    |--------------------------------------------------------------------------
+    */
+
+    $query->when(
+        $request->filled('online'),
+        function ($q) use ($request) {
+
+            $q->where(
+                'cug.online_status',
+                $request->online
+            );
+
+        }
+    );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Search
+    |--------------------------------------------------------------------------
+    */
+
+    $query->when(
+        $request->filled('search'),
+        function ($q) use ($request) {
+
+            $search = trim(
+                $request->search
+            );
+
+            $q->where(
+                function ($sub) use ($search) {
+
+                    $sub->where(
+                        's.staff_name',
+                        'LIKE',
+                        "%{$search}%"
+                    )
+
+                    ->orWhere(
+                        'cug.staff_mobile',
+                        'LIKE',
+                        "%{$search}%"
+                    );
+
+                }
+            );
+
+        }
+    );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Summary
+    |--------------------------------------------------------------------------
+    */
+
+    $summary = (clone $query)
+
+        ->selectRaw("
+            COUNT(*) AS total_staff,
+
+            SUM(
+                CASE
+                    WHEN cug.online_status = 1
+                    THEN 1
+                    ELSE 0
+                END
+            ) AS online,
+
+            SUM(
+                CASE
+                    WHEN cug.online_status = 0
+                    THEN 1
+                    ELSE 0
+                END
+            ) AS offline,
+
+            COALESCE(
+                SUM(
+                    COALESCE(calls.incoming, 0) +
+                    COALESCE(calls.outgoing, 0) +
+                    COALESCE(calls.missed, 0) +
+                    COALESCE(calls.rejected, 0) +
+                    COALESCE(calls.dialed, 0)
+                ),
+                0
+            ) AS total_calls,
+
+            COALESCE(
+                SUM(
+                    COALESCE(calls.missed, 0)
+                ),
+                0
+            ) AS missed,
+
+            COALESCE(
+                SUM(
+                    COALESCE(calls.incoming, 0)
+                ),
+                0
+            ) AS incoming,
+
+            COALESCE(
+                SUM(
+                    COALESCE(calls.outgoing, 0)
+                ),
+                0
+            ) AS outgoing,
+
+            COALESCE(
+                SUM(
+                    COALESCE(calls.rejected, 0)
+                ),
+                0
+            ) AS rejected,
+
+            COALESCE(
+                SUM(
+                    COALESCE(calls.dialed, 0)
+                ),
+                0
+            ) AS dialed
+        ")
+
+        ->first();
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Staff List
+    |--------------------------------------------------------------------------
+    */
+
+    $staff = $query
+
+        ->select(
+
+            's.sno as staff_id',
+
+            's.staff_name',
+
+            'users.id as user_id',
+
+            's.staff_image',
+
+            's.gender',
+
+            's.status as staff_status',
+
+            'cug.staff_mobile as cug_mobile',
+
+            'cug.online_status',
+            'cug.last_online_at',
+            'cug.last_terminate_at',
+
+            'jp.job_position_name',
+
+            DB::raw("
+                COALESCE(
+                    calls.incoming,
+                    0
+                ) AS incoming
+            "),
+
+            DB::raw("
+                COALESCE(
+                    calls.outgoing,
+                    0
+                ) AS outgoing
+            "),
+
+            DB::raw("
+                COALESCE(
+                    calls.missed,
+                    0
+                ) AS missed
+            "),
+
+            DB::raw("
+                COALESCE(
+                    calls.rejected,
+                    0
+                ) AS rejected
+            "),
+
+            DB::raw("
+                COALESCE(
+                    calls.dialed,
+                    0
+                ) AS dialed
+            "),
+            DB::raw("
+                calls.last_call_at AS last_call_at
+            "),
+
+        )
+
+        ->orderByDesc(
+            'cug.online_status'
+        )
+
+        ->orderBy(
+            's.staff_name'
+        )
+
+        ->paginate(
+            $limit,
+            ['*'],
+            'page',
+            $page
+        );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Last Login - ONE QUERY
+    |
+    | Avoid N+1 query inside transform()
+    |--------------------------------------------------------------------------
+    */
+
+    $userIds = $staff
+        ->getCollection()
+        ->pluck('user_id')
+        ->filter()
+        ->values()
+        ->toArray();
+
+
+    $lastLogins = collect();
+
+
+    if (!empty($userIds)) {
+
+        $lastLogins = DB::table(
+            'mobile_user_login_logs'
+        )
+
+        ->select(
+            'user_id',
+            'login_at'
+        )
+
+        ->whereIn(
+            'user_id',
+            $userIds
+        )
+
+        ->where(
+            'type',
+            0
+        )
+
+        ->orderByDesc(
+            'login_at'
+        )
+
+        ->get()
+
+        ->unique(
+            'user_id'
+        )
+
+        ->keyBy(
+            'user_id'
+        );
+
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Transform
+    |--------------------------------------------------------------------------
+    */
+
+    
+            $startDate = Carbon::create($year, $month, 1);
+                $currentDate = Carbon::now();
+                $endDate = ($currentDate->year == $year && $currentDate->month == $month)
+                    ? $currentDate
+                    : $startDate->copy()->endOfMonth();
+                $dayCount = $startDate->diffInDays($endDate) + 1;
+
+    $staff->getCollection()->transform(
+        function ($row) use ($lastLogins,$dayCount) {
+
+            /*
+            |--------------------------------------------------------------------------
+            | Last Login
+            |--------------------------------------------------------------------------
+            */
+
+            $login = $lastLogins->get(
+                $row->user_id
+            );
+
+            if ($login && $login->login_at) {
+
+                $loginAt = Carbon::parse(
+                    $login->login_at
+                );
+
+                $row->last_login_date =
+                    $loginAt->format('Y-m-d');
+
+                $row->last_login_time =
+                    $loginAt->format('h:i:s A');
+
+            } else {
+
+                $row->last_login_date = null;
+
+                $row->last_login_time = null;
+
+            }
+
+            $lastOnlineDate =NULL;
+            $lastOnlineTime =NULL;
+            $lastOnlineDuration =NULL;
+            
+            $lastOfflineDate = null;
+            $lastOfflineTime = null;
+            $lastOfflineDuration = null;
+
+            if ($row->last_online_at) {
+                $lastOnlineAt = Carbon::parse($row->last_online_at);
+                $lastOnlineDate = $lastOnlineAt->format('Y-m-d');
+                $lastOnlineTime = $lastOnlineAt->format('H:i:s');
+                $lastOnlineDuration = $loginAt->diffForHumans([
+                    'parts' => 2,
+                    'short' => true,
+                ]);
+            }
+            
+            if ($row->last_terminate_at) {
+                $lastOfflineAt = Carbon::parse($row->last_terminate_at);
+                $lastOfflineDate = $lastOfflineAt->format('Y-m-d');
+                $lastOfflineTime = $lastOfflineAt->format('H:i:s');
+                $lastOfflineDuration = $lastOfflineAt->diffForHumans([
+                    'parts' => 2,
+                    'short' => true,
+                ]);
+            }
+
+
+              $row->last_online_date = $lastOnlineDate;
+              $row->last_online_time = $lastOnlineTime;
+              $row->last_online_duration = $lastOnlineDuration;
+
+                $row->last_offline_date = $lastOfflineDate;
+                $row->last_offline_time = $lastOfflineTime;
+                $row->last_offline_duration = $lastOfflineDuration;
+
+            /*
+            |--------------------------------------------------------------------------
+            | Last Call
+            |--------------------------------------------------------------------------
+            */
+
+            if ($row->last_call_at) {
+
+                $lastCallAt = Carbon::parse( $row->last_call_at);
+                $row->last_call_date = $lastCallAt->format('Y-m-d');
+                $row->last_call_time =  $lastCallAt->format('h:i:s A');
+                $row->last_call_duration =
+                    $lastCallAt->diffForHumans([
+                        'parts' => 2,
+                        'short' => true,
+                    ]);
+
+            } else {
+                $row->last_call_date = null;
+                $row->last_call_time = null;
+                $row->last_call_duration = null;
+
+            }
+
+           
+
+            /*
+            |--------------------------------------------------------------------------
+            | Call Counts
+            |--------------------------------------------------------------------------
+            */
+
+            $row->incoming = (int) $row->incoming;
+
+            $row->outgoing = (int) $row->outgoing;
+
+            $row->missed = (int) $row->missed;
+
+            $row->rejected = (int) $row->rejected;
+
+            $row->dialed = (int) $row->dialed;
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | Total Calls
+            |--------------------------------------------------------------------------
+            */
+
+            $totalCalls =
+                $row->incoming +
+                $row->outgoing +
+                $row->missed +
+                $row->rejected +
+                $row->dialed;
+
+
+            $row->total_calls =
+                $totalCalls;
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | Call Percentage
+            |--------------------------------------------------------------------------
+            |
+            | Same concept used by your CUG table.
+            |--------------------------------------------------------------------------
+            */
+
+
+                $row->ocr = $dayCount > 0 ? round($row->outgoing / $dayCount) : 0;
+
+                $row->rcr= $dayCount > 0 ? round($row->incoming / $dayCount) : 0;
+                
+                $row->mcr = $dayCount > 0 ? round($row->missed / $dayCount) : 0;
+
+            
+            /*
+            |--------------------------------------------------------------------------
+            | Missed Call Ratio
+            |
+            | Match your TeamCall() calculation:
+            | incoming + missed + rejected
+            |--------------------------------------------------------------------------
+            */
+
+            $missedRatioTotal =
+                $row->incoming +
+                $row->missed +
+                $row->rejected;
+
+
+            $row->missed_call_ratio =
+                $missedRatioTotal > 0
+                    ? round(
+                        ($row->missed / $missedRatioTotal) * 100,
+                        1
+                    )
+                    : 0;
+
+
+            return $row;
+
+        }
+    );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Response
+    |--------------------------------------------------------------------------
+    */
+
+    return response()->json([
+
+        'status' => true,
+
+        'summary' => [
+
+            'total_staff' =>
+                (int) ($summary->total_staff ?? 0),
+
+            'online' =>
+                (int) ($summary->online ?? 0),
+
+            'offline' =>
+                (int) ($summary->offline ?? 0),
+
+            'total_calls' =>
+                (int) ($summary->total_calls ?? 0),
+
+            'incoming' =>
+                (int) ($summary->incoming ?? 0),
+
+            'outgoing' =>
+                (int) ($summary->outgoing ?? 0),
+
+            'missed' =>
+                (int) ($summary->missed ?? 0),
+
+            'rejected' =>
+                (int) ($summary->rejected ?? 0),
+
+            'dialed' =>
+                (int) ($summary->dialed ?? 0),
+
+        ],
+
+        'data' =>
+            $staff->items(),
+
+        'pagination' => [
+
+            'current_page' =>
+                $staff->currentPage(),
+
+            'last_page' =>
+                $staff->lastPage(),
+
+            'per_page' =>
+                $staff->perPage(),
+
+            'total' =>
+                $staff->total(),
+
+            'has_more' =>
+                $staff->hasMorePages(),
+
+        ],
+
+    ]);
+} this cug call list function for your refrence 
+  public function locationTrackerData(Request $request)
+    {
+        try {
+
+            /*
+            |--------------------------------------------------------------------------
+            | 1. Validate filters
+            |--------------------------------------------------------------------------
+            */
+
+            $request->validate([
+
+                'filter_type' => [
+                    'nullable',
+                    'in:month,custom'
+                ],
+
+                'month' => [
+                    'nullable',
+                    'date_format:Y-m'
+                ],
+
+                'start_date' => [
+                    'nullable',
+                    'date'
+                ],
+
+                'end_date' => [
+                    'nullable',
+                    'date'
+                ],
+
+                'staff_id' => [
+                    'nullable',
+                    'integer'
+                ],
+
+                'status' => [
+                    'nullable'
+                ],
+
+                'search' => [
+                    'nullable',
+                    'string',
+                    'max:100'
+                ],
+
+            ]);
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 2. Determine Date Range
+            |--------------------------------------------------------------------------
+            */
+
+            $filterType = $request->input(
+                'filter_type',
+                'month'
+            );
+
+            if ($filterType === 'custom') {
+
+                $startDate = $request->filled('start_date')
+                    ? Carbon::parse($request->start_date)->startOfDay()
+                    : now()->startOfMonth();
+
+                $endDate = $request->filled('end_date')
+                    ? Carbon::parse($request->end_date)->endOfDay()
+                    : now()->endOfDay();
+
+            } else {
+
+                /*
+                |--------------------------------------------------------------------------
+                | Default = Current Month
+                |--------------------------------------------------------------------------
+                */
+
+                $month = $request->input(
+                    'month',
+                    now()->format('Y-m')
+                );
+
+                try {
+
+                    $monthDate = Carbon::createFromFormat(
+                        'Y-m',
+                        $month
+                    );
+
+                } catch (\Throwable $e) {
+
+                    $monthDate = now();
+                }
+
+                $startDate = $monthDate
+                    ->copy()
+                    ->startOfMonth();
+
+                $endDate = $monthDate
+                    ->copy()
+                    ->endOfMonth();
+            }
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | Prevent Invalid Date Range
+            |--------------------------------------------------------------------------
+            */
+
+            if ($startDate->greaterThan($endDate)) {
+
+                return response()->json([
+                    'status'  => false,
+                    'message' => 'Start date cannot be greater than end date.',
+                ], 422);
+            }
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 3. Base Query
+            |--------------------------------------------------------------------------
+            */
+
+            $query = CallTrackerModel::query();
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 4. Date Filter
+            |--------------------------------------------------------------------------
+            |
+            | Replace call_date / created_at with your actual date column
+            | if your CallTrackerModel uses another column.
+            |
+            */
+
+            $query->whereBetween(
+                'call_start_date',
+                [
+                    $startDate->toDateString(),
+                    $endDate->toDateString()
+                ]
+            );
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 5. Staff Filter
+            |--------------------------------------------------------------------------
+            */
+
+            if ($request->filled('staff_id')) {
+
+                $query->where(
+                    'staff_id',
+                    $request->integer('staff_id')
+                );
+            }
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 6. Call Status Filter
+            |--------------------------------------------------------------------------
+            */
+
+            if (
+                $request->filled('status') &&
+                $request->status !== 'all'
+            ) {
+
+                /*
+                |--------------------------------------------------------------------------
+                | Allow multiple status values
+                |--------------------------------------------------------------------------
+                */
+
+                $statuses = is_array($request->status)
+                    ? $request->status
+                    : explode(',', $request->status);
+
+                $statuses = collect($statuses)
+                    ->filter(function ($status) {
+
+                        return $status !== ''
+                            && $status !== null;
+                    })
+                    ->map(function ($status) {
+
+                        return (int) $status;
+                    })
+                    ->unique()
+                    ->values()
+                    ->toArray();
+
+                if (!empty($statuses)) {
+
+                    $query->whereIn(
+                        'status',
+                        $statuses
+                    );
+                }
+            }
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 7. Search
+            |--------------------------------------------------------------------------
+            */
+
+            if ($request->filled('search')) {
+
+                $search = trim(
+                    $request->input('search')
+                );
+
+                $query->where(function ($q) use ($search) {
+
+                    $q->where(
+                        'contact_name',
+                        'like',
+                        '%' . $search . '%'
+                    )
+
+                    ->orWhere(
+                        'phone_no',
+                        'like',
+                        '%' . $search . '%'
+                    );
+
+                });
+            }
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 8. Clone Query For Summary
+            |--------------------------------------------------------------------------
+            */
+
+            $summaryQuery = clone $query;
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 9. Summary
+            |--------------------------------------------------------------------------
+            */
+
+            $totalCalls = (clone $summaryQuery)
+                ->count();
+
+            $mappedCalls = (clone $summaryQuery)
+                ->whereNotNull('latitude')
+                ->whereNotNull('longitude')
+                ->count();
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | Unique Coordinates
+            |--------------------------------------------------------------------------
+            */
+
+            $uniqueLocations = (clone $summaryQuery)
+                ->whereNotNull('latitude')
+                ->whereNotNull('longitude')
+                ->select([
+                    'latitude',
+                    'longitude'
+                ])
+                ->get()
+                ->map(function ($row) {
+
+                    return number_format(
+                        (float) $row->latitude,
+                        7,
+                        '.',
+                        ''
+                    ) . ',' .
+                    number_format(
+                        (float) $row->longitude,
+                        7,
+                        '.',
+                        ''
+                    );
+
+                })
+                ->unique()
+                ->count();
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | Status Counts
+            |--------------------------------------------------------------------------
+            |
+            | These numeric values should match your existing application
+            | status mapping.
+            |
+            */
+
+            $incoming = (clone $summaryQuery)
+                ->where('status', 1)
+                ->count();
+
+            $outgoing = (clone $summaryQuery)
+                ->where('status', 0)
+                ->count();
+
+            $missed = (clone $summaryQuery)
+                ->where('status', 3)
+                ->count();
+
+            $rejected = (clone $summaryQuery)
+                ->where('status', 2)
+                ->count();
+
+            $dialed = (clone $summaryQuery)
+                ->where('status', 4)
+                ->count();
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 10. Fetch Calls
+            |--------------------------------------------------------------------------
+            */
+
+            $calls = $query
+                ->orderByDesc('call_start_date')
+                ->orderByDesc('call_start_time')
+                ->get();
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 11. Staff IDs
+            |--------------------------------------------------------------------------
+            */
+
+            $staffIds = $calls
+                ->pluck('staff_id')
+                ->filter()
+                ->unique()
+                ->values();
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 12. Staff Data
+            |--------------------------------------------------------------------------
+            */
+
+            $staffCollection = StaffModel::query()
+                ->whereIn(
+                    'staff_id',
+                    $staffIds
+                )
+                ->get()
+                ->keyBy('staff_id');
+
+
+            /*
+            |--------------------------------------------------------------------------
+            | 13. Transform Calls
+            |--------------------------------------------------------------------------
+            */
+
+            $data = $calls->map(function ($call) use (
+                $staffCollection
+            ) {
+
+                $staff = $staffCollection->get(
+                    $call->staff_id
+                );
+
+
+                /*
+                |--------------------------------------------------------------------------
+                | Coordinates
+                |--------------------------------------------------------------------------
+                */
+
+                $latitude = is_numeric($call->latitude)
+                    ? (float) $call->latitude
+                    : null;
+
+                $longitude = is_numeric($call->longitude)
+                    ? (float) $call->longitude
+                    : null;
+
+
+                /*
+                |--------------------------------------------------------------------------
+                | Status
+                |--------------------------------------------------------------------------
+                */
+
+                $status = (int) $call->status;
+
+                $statusData = $this->getCallLocationStatus(
+                    $status
+                );
+
+
+                /*
+                |--------------------------------------------------------------------------
+                | DateTime
+                |--------------------------------------------------------------------------
+                */
+
+                $datetime = null;
+
+                if (
+                    !empty($call->call_start_date) &&
+                    !empty($call->call_start_time)
+                ) {
+
+                    $datetime = Carbon::parse(
+                        $call->call_start_date . ' ' . $call->call_start_time
+                    );
+                }
+
+
+                return [
+
+                    'id' => $call->sno
+                        ?? $call->id
+                        ?? null,
+
+                    'latitude' => $latitude,
+
+                    'longitude' => $longitude,
+
+                    'location_key' => (
+                        $latitude !== null &&
+                        $longitude !== null
+                    )
+                        ? number_format(
+                            $latitude,
+                            7,
+                            '.',
+                            ''
+                        ) . ',' .
+                        number_format(
+                            $longitude,
+                            7,
+                            '.',
+                            ''
+                        )
+                        : null,
+
+                    'user' => $staff->staff_name
+                        ?? 'Unknown Staff',
+
+                    'staff_id' => $call->staff_id,
+
+                    'staff_image' => $staff->staff_image
+                        ?? null,
+
+                    'department_name' =>
+                        $staff->department_name
+                        ?? null,
+
+                    'job_position_name' =>
+                        $staff->job_position_name
+                        ?? null,
+                    'contact' => $call->contact_name ?? 'Unknown Contact',
+                    'phone' => $call->phone_no  ?? '',
+                    'date' => $call->call_start_date,
+                    'time' => $call->call_start_time,
+                    'datetime' => $datetime ? $datetime->format( 'Y-m-d H:i:s' ) : null,
+                    'duration' => $call->duration ?? '00:00:00',
+                    'status' => $status,
+                    'status_text' => $statusData['text'],
+                    'status_class' => $statusData['class'],
+                    'status_icon' => $statusData['icon'],
+                    'has_location' => $latitude !== null && $longitude !== null,
+                ];
+
+            })->values();
+
+            $latestCall = $data->first();
+
+            $groupedLocations = $data
+                ->filter(function ($call) {
+                    return $call['has_location'];
+                })
+                ->groupBy('location_key')
+                ->map(function ($calls, $locationKey) {
+                    $first = $calls->first();
+
+                    return [
+                        'location_key' => $locationKey,
+                        'latitude' => $first['latitude'],
+                        'longitude' => $first['longitude'],
+                        'call_count' => $calls->count(),
+                        'latest_call' =>$first,
+                        'calls' => $calls->values(),
+                    ];
+
+                })
+                ->values();
+
+            return response()->json([
+
+                'status' => true,
+                'message' =>'Call locations loaded successfully.',
+                'filter' => [
+                    'type' => $filterType,
+                    'start_date' => $startDate->toDateString(),
+                    'end_date' => $endDate->toDateString(),
+                    'month' => $filterType === 'month'
+                            ? $startDate->format('Y-m')
+                            : null,
+                    'staff_id' => $request->input('staff_id'),
+                    'status' => $request->input('status', 'all'),
+                    'search' => $request->input('search'),
+                ],
+                'summary' => [
+                    'total_calls' => $totalCalls,
+                    'mapped_calls' => $mappedCalls,
+                    'unique_locations' => $uniqueLocations,
+                    'incoming' => $incoming,
+                    'outgoing' => $outgoing,
+                    'missed' => $missed,
+                    'rejected' => $rejected,
+                    'dialed' => $dialed,
+                ],
+                'latest_call' => $latestCall,
+                'data' =>$data,
+                'locations' => $groupedLocations,
+
+            ]);
+
+        } catch (\Throwable $e) {
+
+            Log::error(
+                'Location Tracker Data Error',
+                [
+                    'message' =>$e->getMessage(),
+                    'file' =>$e->getFile(),
+                    'line' => $e->getLine(),
+                    'request' => $request->all(),
+                ]
+            );
+            return response()->json([
+                'status' => false,
+                'message' =>$e->getMessage(),
+                'file' =>$e->getFile(),
+                'line' => $e->getLine(),
+                'request' => $request->all(),
+                'data' => [],
+            ], 500);
+        }
+    } correct this some error are unknown sql error
+
+Yes. The main problem is that your locationTrackerData() is using column names that do not match the call-tracker structure shown in your cugStaffList() reference.
+
+From your working CUG code, the important actual fields are:
+
+Staff ID → branch_staff_id
+Call status → call_status
+Call duration → call_duration
+Staff table key → et_staff.sno
+Staff name → s.staff_name
+Position → jp.job_position_name
+
+So the location tracker should use those same fields. I would not change your database tables or columns.
+
+Corrected production version
+public function locationTrackerData(Request $request)
+{
+    try {
+
+
+        /*
+        |--------------------------------------------------------------------------
+        | 1. Validate Filters
+        |--------------------------------------------------------------------------
+        */
+
+
+        $request->validate([
+
+
+            'filter_type' => [
+                'nullable',
+                'in:month,custom'
+            ],
+
+
+            'month' => [
+                'nullable',
+                'date_format:Y-m'
+            ],
+
+
+            'start_date' => [
+                'nullable',
+                'date'
+            ],
+
+
+            'end_date' => [
+                'nullable',
+                'date'
+            ],
+
+
+            'staff_id' => [
+                'nullable',
+                'integer'
+            ],
+The important corrections
+
+Your original function had several likely SQL mismatches.
+
+1. staff_id → branch_staff_id
+
+Your working cugStaffList() explicitly confirms:
+
+et_call_tracker.branch_staff_id
+
+and:
+
+$join->on(
+    'calls.branch_staff_id',
+    '=',
+    's.sno'
+);
+
+Therefore the location query should use:
+
+ct.branch_staff_id
+
+not:
+
+staff_id
+2. status → call_status
+
+Your working CUG code uses:
+
+call_status
+
+So these:
+
+->where('status', ...)
+
+were changed to:
+
+->where('ct.call_status', ...)
+3. duration → call_duration
+
+Your CUG function confirms:
+
+call_duration
+
+Therefore:
+
+$call->duration
+
+was changed to:
+
+$call->call_duration
+
+This is important because your outgoing calculation is:
+
+call_status = 0
+AND call_duration != '00:00:00'
+4. Your status mapping was inconsistent
+
+Your location function had:
+
+3 = missed
+2 = rejected
+
+But your working CUG function has:
+
+0 = outgoing
+1 = incoming
+2 = missed
+3 = rejected
+4 = dialed
+
+I kept the CUG mapping, since you specifically gave that function as the reference.
+
+5. Removed risky StaffModel
+
+You had:
+
+$staffCollection = StaffModel::query()
+    ->whereIn('staff_id', $staffIds)
+
+This is a likely source of the SQL error.
+
+Your working query clearly uses:
+
+et_staff.sno
+
+So I changed it to:
+
+DB::table('et_staff as s')
+    ->leftJoin(
+        'et_job_position as jp',
+        'jp.sno',
+        '=',
+        's.position_role'
+    )
+    ->whereIn('s.sno', $staffIds)
+
+This also means the query is explicit and doesn't depend on hidden model configuration.
+
+One more important point
+
+I intentionally did not add a department table join, because you have not shown the actual department table/column structure. The function now returns:
+
+'department_id' => $staff->department_id ?? null,
+
+and:
+
+'job_position_name' => $staff->job_position_name ?? null,
+
+So there is no risk of introducing another Unknown column SQL error from guessing your department table.
+
+Your API response remains compatible
+
+The frontend can continue using:
+
+res.data.data
+res.data.locations
+res.data.summary
+res.data.latest_call
+res.data.filter
+
+and each call still contains:
+
+{
+    id,
+    latitude,
+    longitude,
+    location_key,
+    user,
+    staff_id,
+    staff_image,
+    department_id,
+    job_position_name,
+    contact,
+    phone,
+    date,
+    time,
+    end_time,
+    datetime,
+    duration,
+    status,
+    status_text,
+    status_class,
+    status_icon,
+    has_location
+}
+
+So this is a backend correction only; your existing map/UI does not need to be changed because of these fixes.
+
+Today 4:27 PM
+cug_location.blade(5).php
+File
+analayse it thoroughly dont change entirely i want  staff wise route color showin stack activity list background color of call count and while click staff header not only accortian open i want staff filter in location
+
+Yes. I went through the existing tracker structure carefully. You do not need to rewrite the page. Your current implementation already has most of the required foundation:
+
+Staff grouping already exists in the call list.
+Staff route colors are already generated dynamically.
+Routes are already drawn chronologically, with arrows.
+Marker clustering is already enabled.
+The map already has Street/Satellite layers.
+
+So I would make small targeted changes only.
+
+What you want
+
+When All Staff is selected:
+
+Staff A  ── RED route ── 🔴🔴🔴
+Staff B  ── BLUE route ── 🔵🔵
+Staff C  ── GREEN route ── 🟢🟢🟢
+
+And in the right-side activity list:
+
+┌──────────────────────────────┐
+│ 🔴 Staff A             25    │  ← colored header
+│    Sales Executive       ▼   │
+├──────────────────────────────┤
+│ John       10:30   📍        │
+│ +91xxxx    Outgoing          │
+│                              │
+│ Mary       11:20   📍        │
+│ +91xxxx    Incoming          │
+└──────────────────────────────┘
+
+
+┌──────────────────────────────┐
+│ 🔵 Staff B             12    │
+│    Manager              ▼   │
+└──────────────────────────────┘
+Important behavior
+
+Clicking Staff A header should do two things together:
+
+Open/close the accordion.
+Filter/highlight Staff A on the map and zoom to Staff A's route.
+
+It should not make another AJAX request. The data is already available in currentData, so filtering the existing map is much faster.
+
+1. Add these JS variables
+
+You already have:
+
+let staffRouteColors = new Map();
+let callMarkers = [];
+let markerLookup = new Map();
+let currentData = [];
+let currentLocations = [];
+
+Add:
+
+let activeStaffMapFilter = null;
+let staffRouteLayers = new Map();
+let staffMarkerGroups = new Map();
+
+So:
+
+let locationMap = null;
+let streetLayer = null;
+let satelliteLayer = null;
+let markerCluster = null;
+let routeLayerGroup = null;
+
+
+let staffRouteColors = new Map();
+let staffRouteLayers = new Map();
+let staffMarkerGroups = new Map();
+
+
+let callMarkers = [];
+let markerLookup = new Map();
+
+
+let currentData = [];
+let currentLocations = [];
+
+
+let activeStaffMapFilter = null;
+2. Keep your existing staff route color function
+
+Your current getStaffRouteColor() is actually good.
+
+It already generates a consistent color based on staff_id, so the same staff gets the same color during the session.
+
+Do not change it.
+
+3. Change drawStaffRoutes()
+
+Your existing function draws all staff routes into one routeLayerGroup.
+
+For staff filtering, we need to remember each staff's route layer separately.
+
+Replace only your existing drawStaffRoutes() with:
+
+function drawStaffRoutes(calls)
+        /*
+        |--------------------------------------------------------------------------
+        | Direction arrows
+        |--------------------------------------------------------------------------
+        */
+
+
+        const segmentCount =
+            points.length - 1;
+
+
+        const arrowStep =
+            Math.max(
+                1,
+                Math.ceil(
+                    segmentCount / 20
+                )
+            );
+
+
+
+
+        for (
+            let i = 0;
+            i < segmentCount;
+            i += arrowStep
+        ) {
+
+
+            const arrow =
+                createRouteArrow(
+                    points[i],
+                    points[i + 1],
+                    color
+                );
+
+
+            staffLayer.addLayer(
+                arrow
+            );
+        }
+
+
+
+
+        /*
+        |--------------------------------------------------------------------------
+        | Add staff route
+        |--------------------------------------------------------------------------
+        */
+
+
+        staffLayer.addTo(
+            routeLayerGroup
+        );
+
+
+    });
+
+
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Apply active staff filter if already selected
+    |--------------------------------------------------------------------------
+    */
+
+
+    if (activeStaffMapFilter) {
+
+
+        applyStaffMapFilter(
+            activeStaffMapFilter,
+            false
+        );
+    }
+}
+4. Add staff color to the call-list header
+
+Your current buildStaffGroup() creates the header and count.
+
+After:
+
+const first =
+    calls[0] || {};
+
+add:
+
+const staffColor =
+    getStaffRouteColor(
+        staffId
+    );
+
+Then change:
+
+header.className =
+    'staff-call-group-header';
+
+to:
+
+header.className =
+    'staff-call-group-header';
+
+
+header.dataset.staffId =
+    String(staffId);
+
+
+header.style.setProperty(
+    '--staff-route-color',
+    staffColor
+);
+
+This allows the header to use the exact same color as the map route.
+
+5. Add a colored staff indicator
+
+After the header is created:
+
+const routeColor =
+    document.createElement('span');
+
+
+routeColor.className =
+    'staff-route-color';
+
+
+routeColor.style.background =
+    staffColor;
+
+
+routeColor.title =
+    'Show staff route';
+
+
+header.appendChild(
+    routeColor
+);
+
+But append it before the avatar:
+
+header.insertBefore(
+    routeColor,
+    header.firstChild
+);
+
+So visually:
+
+● [Avatar] Staff Name             25 ▼
+↑
+route color
+6. Make staff count visually stronger
+
+You currently have:
+
+count.className =
+    'staff-group-count';
+
+
+count.textContent =
+    calls.length;
+
+Change to:
+
+count.className =
+    'staff-group-count';
+
+
+count.textContent =
+    calls.length;
+
+
+count.style.background =
+    staffColor;
+
+
+count.style.borderColor =
+    staffColor;
+
+
+count.style.color =
+    '#ffffff';
+
+Now:
+
+Staff A                         25
+                               ↑
+                         route color
+7. Staff header click = accordion + map filter
+
+This is the important part.
+
+Your current staff groups are already designed as clickable accordion headers.
+
+Find the existing click event inside buildStaffGroup().
+
+Instead of only toggling the accordion, use:
+
+header.addEventListener(
+    'click',
+    function () {
+
+
+        /*
+        |--------------------------------------------------------------------------
+        | Existing accordion behavior
+        |--------------------------------------------------------------------------
+        */
+
+
+        const isExpanded =
+            header.getAttribute(
+                'aria-expanded'
+            ) === 'true';
+
+
+        const newState =
+            !isExpanded;
+
+
+        header.setAttribute(
+            'aria-expanded',
+            newState
+                ? 'true'
+                : 'false'
+        );
+
+
+
+
+        wrapper.classList.toggle(
+            'expanded',
+            newState
+        );
+
+
+
+
+        /*
+        |--------------------------------------------------------------------------
+        | MAP FILTER
+        |--------------------------------------------------------------------------
+        */
+
+
+        if (newState) {
+
+
+            applyStaffMapFilter(
+                String(staffId),
+                true
+            );
+
+
+        } else {
+
+
+            /*
+            | When closing accordion:
+            | return map to all staff.
+            */
+
+
+            activeStaffMapFilter = null;
+
+
+            showAllStaffRoutes();
+
+
+        }
+
+
+    }
+);
+
+If your current accordion has another click handler, don't keep two click handlers. Replace that existing header click handler with the above logic.
+
+8. Add applyStaffMapFilter()
+
+Add this function after drawStaffRoutes():
+
+function applyStaffMapFilter(
+                ) {
+
+
+                    markerCluster.addLayer(
+                        item.marker
+                    );
+
+
+                }
+
+
+            }
+        );
+
+
+    }
+
+
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Zoom to staff route
+    |--------------------------------------------------------------------------
+    */
+
+
+    if (!zoomToStaff) {
+        return;
+    }
+
+
+
+
+    const staffCalls =
+        currentData.filter(
+            function(call) {
+
+
+                return (
+                    String(
+                        call.staff_id
+                    ) === staffId &&
+                    call.has_location
+                );
+
+
+            }
+        );
+
+
+
+
+    if (!staffCalls.length) {
+        return;
+    }
+
+
+
+
+    const bounds =
+        L.latLngBounds([]);
+
+
+
+
+    staffCalls.forEach(
+        function(call) {
+
+
+            bounds.extend([
+                Number(call.latitude),
+                Number(call.longitude)
+            ]);
+
+
+        }
+    );
+
+
+
+
+    if (bounds.isValid()) {
+
+
+        locationMap.fitBounds(
+            bounds,
+            {
+                padding: [70, 70],
+                maxZoom: 17,
+                animate: true
+            }
+        );
+
+
+    }
+
+
+}
+9. Add showAllStaffRoutes()
+
+Add:
+
+function showAllStaffRoutes()
+
+
+        markerCluster.clearLayers();
+
+
+        callMarkers.forEach(
+            function(item) {
+
+
+                if (item.marker) {
+
+
+                    markerCluster.addLayer(
+                        item.marker
+                    );
+
+
+                }
+
+
+            }
+        );
+
+
+    }
+
+
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Fit all locations
+    |--------------------------------------------------------------------------
+    */
+
+
+    const bounds =
+        L.latLngBounds([]);
+
+
+
+
+    currentLocations.forEach(
+        function(location) {
+
+
+            const lat =
+                Number(location.latitude);
+
+
+            const lng =
+                Number(location.longitude);
+
+
+            if (
+                Number.isFinite(lat) &&
+                Number.isFinite(lng)
+            ) {
+
+
+                bounds.extend([
+                    lat,
+                    lng
+                ]);
+
+
+            }
+
+
+        }
+    );
+
+
+
+
+    if (bounds.isValid()) {
+
+
+        locationMap.fitBounds(
+            bounds,
+            {
+                padding: [50, 50],
+                maxZoom: 16,
+                animate: true
+            }
+        );
+
+
+    }
+
+
+}
+10. Important correction for marker filtering
+
+There is one architectural issue in your current code.
+
+Your marker represents a grouped location, not an individual call.
+
+Your backend groups calls by:
+
+location_key
+
+and sends:
+
+location_key
+latitude
+longitude
+call_count
+latest_call
+calls
+
+Your frontend then creates one marker per grouped location.
+
+Therefore this:
+
+const latest =
+    item.location.latest_call;
+
+can be insufficient if the same GPS location contains calls from multiple staff.
+
+Use this instead inside applyStaffMapFilter():
+
+const locationCalls =
+    Array.isArray(
+        item.location.calls
+    )
+        ? item.location.calls
+        : [];
+
+
+const belongsToStaff =
+    locationCalls.some(
+        function(call) {
+
+
+            return String(
+                call.staff_id
+            ) === staffId;
+
+
+        }
+    );
+
+
+if (belongsToStaff) {
+
+
+    markerCluster.addLayer(
+        item.marker
+    );
+
+
+}
+
+So the complete marker section should be:
+
+if (markerCluster) {
+
+
+    markerCluster.clearLayers();
+
+
+    callMarkers.forEach(
+        function(item) {
+
+
+            if (!item.location) {
+                return;
+            }
+
+
+            const locationCalls =
+                Array.isArray(
+                    item.location.calls
+                )
+                    ? item.location.calls
+                    : [];
+
+
+            const belongsToStaff =
+                locationCalls.some(
+                    function(call) {
+
+
+                        return String(
+                            call.staff_id
+                        ) === staffId;
+
+
+                    }
+                );
+
+
+            if (belongsToStaff) {
+
+
+                markerCluster.addLayer(
+                    item.marker
+                );
+
+
+            }
+
+
+        }
+    );
+}
+
+This is much safer for your production data.
+
+11. Stack activity list background by call count
+
+You said:
+
+"stack activity list background color of call count"
+
+I recommend not changing the entire staff card to dark colors. Keep your existing UI and use a subtle count-based background.
+
+For example:
+
+Calls	Count appearance
+1–5	light
+6–15	slightly stronger
+16–30	medium
+31+	strong
+
+Add:
+
+.staff-group-count {
+    transition: all .2s ease;
+}
+
+
+.staff-group-count.count-low {
+    background: #eff6ff !important;
+    color: #2563eb !important;
+}
+
+
+.staff-group-count.count-medium {
+    background: #fef3c7 !important;
+    color: #b45309 !important;
+}
+
+
+.staff-group-count.count-high {
+    background: #fed7aa !important;
+    color: #c2410c !important;
+}
+
+
+.staff-group-count.count-critical {
+    background: #fee2e2 !important;
+    color: #dc2626 !important;
+}
+
+Then replace the count styling with:
+
+count.className =
+    'staff-group-count';
+
+
+
+
+const callCount =
+    calls.length;
+
+
+
+
+if (callCount >= 31) {
+
+
+    count.classList.add(
+        'count-critical'
+    );
+
+
+} else if (callCount >= 16) {
+
+
+    count.classList.add(
+        'count-high'
+    );
+
+
+} else if (callCount >= 6) {
+
+
+    count.classList.add(
+        'count-medium'
+    );
+
+
+} else {
+
+
+    count.classList.add(
+        'count-low'
+    );
+}
+
+
+
+
+count.textContent =
+    callCount;
+
+This makes the activity list much easier to scan.
+
+12. Add staff route color CSS
+
+Add:
+
+.staff-route-color {
+    width: 7px;
+    height: 34px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 7px;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, .15);
+}
+
+
+.staff-call-group-header {
+    position: relative;
+    transition: background .2s ease,
+                box-shadow .2s ease;
+}
+
+
+.staff-call-group-header:hover {
+    background: #f8fafc;
+}
+
+
+.staff-call-group-header[aria-expanded="true"] {
+    background: color-mix(
+        in srgb,
+        var(--staff-route-color) 7%,
+        #ffffff
+    );
+
+
+    box-shadow:
+        inset 3px 0 0
+        var(--staff-route-color);
+}
+
+If you need compatibility with older browsers, avoid color-mix() and use:
+
+.staff-call-group-header[aria-expanded="true"] {
+    background: #f8fafc;
+    box-shadow:
+        inset 3px 0 0
+        var(--staff-route-color);
+}
+
+I prefer the second version for production compatibility.
+
+13. Show staff color inside each call item
+
+This is also useful because the list is currently grouped by staff.
+
+Inside your individual call rendering function, add:
+
+const staffColor =
+    getStaffRouteColor(
+        call.staff_id
+    );
+
+Then the call item can have:
+
+<div
+    class="location-call-item"
+    style="--staff-route-color: ${staffColor};"
+>
+
+And CSS:
+
+.location-call-item {
+    position: relative;
+    border-left: 3px solid transparent;
+}
+
+
+.location-call-item:hover {
+    border-left-color:
+        var(--staff-route-color);
+}
+
+
+.location-call-item.active {
+    border-left-color:
+        var(--staff-route-color);
+}
+
+Now the relationship is immediately visible:
+
+🔴 Staff A
+   │
+   ├── Call 1
+   ├── Call 2
+   └── Call 3
+
+
+🔵 Staff B
+   │
+   ├── Call 1
+   └── Call 2
+14. When clicking a call, keep the staff filter
+
+Your existing marker popup calls:
+
+highlightLocationCalls(
+    location.location_key
+);
+
+When a staff filter is active, highlightLocationCalls() should only highlight calls belonging to that staff.
+
+Modify the filtering condition:
+
+function isCallVisibleForActiveStaff(call)
+{
+    if (!activeStaffMapFilter) {
+        return true;
+    }
+
+
+    return String(
+        call.staff_id
+    ) === String(
+        activeStaffMapFilter
+    );
+}
+
+Then when rendering/highlighting:
+
+if (
+    !isCallVisibleForActiveStaff(call)
+) {
+    return;
+}
+
+This prevents Staff A's selected map location from highlighting Staff B's calls at the same GPS coordinate.
+
+15. Very important: reset the staff map filter
+
+When filters change through AJAX, add this at the beginning of loadLocationData():
+
+activeStaffMapFilter = null;
+
+But only when the entire dataset is being reloaded.
+
+So after:
+
+currentData =
+    Array.isArray(result.data)
+        ? result.data
+        : [];
+
+
+currentLocations =
+    Array.isArray(result.locations)
+        ? result.locations
+        : [];
+
+add:
+
+activeStaffMapFilter = null;
+
+Then:
+
+renderSummary(
+    result.summary || {}
+);
+
+
+renderCallList(
+    currentData
+);
+
+
+initializeMap(
+    currentLocations
+);
+
+This ensures:
+
+Change month
+    ↓
+AJAX
+    ↓
+new data
+    ↓
+All Staff map
+
+rather than accidentally retaining an old staff selection.
+
+16. One backend point I strongly recommend
+
+Your current backend response is already returning:
+
+'staff_id' => $call->staff_id,
+'user' => $staff->staff_name,
+'staff_image' => $staff->staff_image,
+
+which is exactly what the frontend needs for staff-wise grouping/routes.
+
+Your frontend already groups calls by:
+
+const staffId = call.staff_id || 'unknown';
+
+So do not add another AJAX request when clicking the staff header.
+
+The flow should remain:
+
+Initial AJAX
+     ↓
+All calls
+     ↓
+currentData
+     ↓
+        ┌─────────────────┐
+        │ Group by staff  │
+        └─────────────────┘
+             ↓
+       ┌──────┴───────┐
+       ↓              ↓
+   Call List       Map Routes
+       ↓              ↓
+ Staff A RED       Staff A RED
+ Staff B BLUE      Staff B BLUE
+ Staff C GREEN     Staff C GREEN
+
+Then:
+
+Click Staff B
+      ↓
+No AJAX
+      ↓
+activeStaffMapFilter = B
+      ↓
+Hide A route
+Hide C route
+Show B route
+      ↓
+Show B markers
+      ↓
+Fit map to B route
+      ↓
+Accordion opens
+
+That is the correct production behavior.
+
+One more thing
+
+Your current implementation already has the route-color infrastructure and route arrows, so I would not rewrite that part. The important change is to make each staff route a separately addressable Leaflet layer instead of putting every staff route into one undifferentiated layer. Your existing route implementation is already chronological and limits arrows to avoid visual overload.
+
+This gives you exactly the staff-wise interaction you requested without disturbing your existing AJAX filters, clustering, satellite mode, or map UI.
