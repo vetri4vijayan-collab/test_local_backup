@@ -1,0 +1,244 @@
+{
+	"info": {
+		"_postman_id": "e9071f7c-6fa1-4c3f-9688-14cf3631a48c",
+		"name": "ERP - Old Wasabi Applicant Resume Storage",
+		"description": "Use dry-run first. Set base_url, migration_token, applicant_sno, and after_sno as collection variables. The migration token is a secret; do not export it with shared collections.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37093226",
+		"_collection_link": "https://eibs55.postman.co/workspace/Eibs-Developer~5a07c8b0-5ff6-4148-abfd-d9a748372336/collection/37093226-e9071f7c-6fa1-4c3f-9688-14cf3631a48c?action=share&source=collection_link&creator=37093226"
+	},
+	"item": [
+		{
+			"name": "1 - Dry-run first batch (no writes)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('API returned JSON status', function () { pm.response.to.be.json; });",
+							"pm.test('Dry run did not write objects', function () { var b = pm.response.json(); pm.expect(b.dry_run).to.eql(true); });"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "X-Wasabi-Migration-Token",
+						"value": "erxcpegxcvcwasabimigration@235476523765236567235462ayhfdfcx213",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"dry_run\": true,\n  \"source\": \"auto\",\n  \"limit\": 25,\n  \"after_sno\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.3.122:5080/api/wasabi/applicants/migrate",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"3",
+						"122"
+					],
+					"port": "5080",
+					"path": [
+						"api",
+						"wasabi",
+						"applicants",
+						"migrate"
+					]
+				},
+				"description": "Run this first and review every result. dry_run defaults to true if omitted."
+			},
+			"response": []
+		},
+		{
+			"name": "2 - Migrate one applicant (auto source)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Migration result includes counts', function () { pm.response.to.be.json; pm.expect(pm.response.json()).to.have.property('counts'); });"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "X-Wasabi-Migration-Token",
+						"value": "erxcpegxcvcwasabimigration@235476523765236567235462ayhfdfcx213",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"applicant_sno\": {{applicant_sno}},\n  \"dry_run\": false,\n  \"source\": \"auto\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/wasabi/applicants/migrate",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"wasabi",
+						"applicants",
+						"migrate"
+					]
+				},
+				"description": "Only run after reviewing dry-run output for this applicant. The local/Drive source is retained."
+			},
+			"response": []
+		},
+		{
+			"name": "3 - Migrate next batch (after_sno cursor)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Migration result includes cursor', function () { pm.response.to.be.json; var b = pm.response.json(); if (b.next_after_sno !== null && b.next_after_sno !== undefined) pm.collectionVariables.set('after_sno', String(b.next_after_sno)); });"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "X-Wasabi-Migration-Token",
+						"value": "erxcpegxcvcwasabimigration@235476523765236567235462ayhfdfcx213",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"dry_run\": false,\n  \"source\": \"auto\",\n  \"limit\": 25,\n  \"after_sno\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.3.122:5080/api/wasabi/applicants/migrate",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"3",
+						"122"
+					],
+					"port": "5080",
+					"path": [
+						"api",
+						"wasabi",
+						"applicants",
+						"migrate"
+					]
+				},
+				"description": "Update after_sno with next_after_sno from the response before running again. Start with small batches."
+			},
+			"response": []
+		},
+		{
+			"name": "4 - Get current resume temporary URLs (ERP session required)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/hr-recruiter/applicants/{{applicant_sno}}/resume/urls",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"hr-recruiter",
+						"applicants",
+						"{{applicant_sno}}",
+						"resume",
+						"urls"
+					]
+				},
+				"description": "Sign in to ERP in Postman or provide the ERP auth cookie. When Wasabi is active, this returns short-lived view_url/download_url values."
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://erp.example.com",
+			"type": "string"
+		},
+		{
+			"key": "migration_token",
+			"value": "",
+			"type": "secret"
+		},
+		{
+			"key": "applicant_sno",
+			"value": "123",
+			"type": "string"
+		},
+		{
+			"key": "after_sno",
+			"value": "0",
+			"type": "string"
+		},
+		{
+			"key": "erpegcwasabimigration213",
+			"value": "migration_token"
+		}
+	]
+}
